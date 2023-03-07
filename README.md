@@ -2,8 +2,8 @@
 
 provides egg bindings for the v8 profiler.
 
+[![npm download](https://img.shields.io/github/actions/workflow/status/uccu/egg-profiler/npm-publish.yml)](https://github.com/uccu/egg-profiler/actions/workflows/npm-publish.yml)
 [![NPM version][npm-image]][npm-url]
-[![npm download][download-image]][download-url]
 [![GitHub issues](https://img.shields.io/github/issues/uccu/egg-profiler)](https://github.com/uccu/egg-profiler/issues)
 ![GitHub](https://img.shields.io/github/license/uccu/egg-profiler)
 
