@@ -1,6 +1,6 @@
 {
   "name": "egg-profiler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "provides egg bindings for the v8 profiler.",
   "eggPlugin": {
     "name": "eggProfiler"
