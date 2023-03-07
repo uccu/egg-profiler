@@ -1,0 +1,55 @@
+{
+  "name": "egg-profiler",
+  "version": "1.0.0",
+  "description": "provides egg bindings for the v8 profiler.",
+  "eggPlugin": {
+    "name": "eggProfiler"
+  },
+  "keywords": [
+    "egg",
+    "profiler",
+    "egg-profiler",
+    "egg-plugin"
+  ],
+  "dependencies": {
+    "@types/mocha": "^10.0.1",
+    "v8-profiler-next": "^1.9.0"
+  },
+  "scripts": {
+    "build":"tsc",
+    "clean":"tsc -b --clean",
+    "ci": "egg-bin pkgfiles --check && npm run lint",
+    "lint": "eslint .",
+    "pkgfiles": "egg-bin pkgfiles"
+  },
+  "devDependencies": {
+    "egg": "^3",
+    "egg-bin": "^5",
+    "egg-ci": "^2",
+    "egg-mock": "^5",
+    "eslint": "^8",
+    "eslint-config-egg": "^12",
+    "mocha": "^10.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "config",
+    "app.js",
+    "index.d.ts"
+  ],
+  "ci": {
+    "version": "14, 16, 18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uccu/egg-profiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uccu/egg-profiler/issues"
+  },
+  "homepage": "https://github.com/uccu/egg-profiler#README",
+  "author": "cat@4moe.com",
+  "license": "MIT"
+}
