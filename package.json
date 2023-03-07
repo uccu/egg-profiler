@@ -12,12 +12,12 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "@types/mocha": "^10.0.1",
+    "moment": "^2.29.4",
     "v8-profiler-next": "^1.9.0"
   },
   "scripts": {
-    "build":"tsc",
-    "clean":"tsc -b --clean",
+    "build": "tsc",
+    "clean": "tsc -b --clean",
     "ci": "egg-bin pkgfiles --check && npm run lint",
     "lint": "eslint .",
     "pkgfiles": "egg-bin pkgfiles"
@@ -29,7 +29,8 @@
     "egg-mock": "^5",
     "eslint": "^8",
     "eslint-config-egg": "^12",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "@types/mocha": "^10.0.1"
   },
   "engines": {
     "node": ">=14.0.0"
